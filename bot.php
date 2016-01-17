@@ -35,7 +35,7 @@ $curlData = array(
   'payload' => json_encode(
     array(
       'username' => 'BO',
-      'channel' => $_POST['channel'],
+      'channel' => '#' . $_POST['channel_name'],
       //'pretext' => $question,
       'icon_emoji' => $face,
       'text' => $answer,
